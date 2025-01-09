@@ -1,6 +1,6 @@
-# UltraBox
+# LemmBox
 
-UltraBox is an online tool for sketching and sharing instrumental music.
+LemmBox is a modification of UltraBox. UltraBox is an online tool for sketching and sharing instrumental music.
 You can find it [here](https://ultraabox.github.io).
 It is a modification of [JummBox](https://github.com/jummbus/jummbox), which inturn is a modification of the [original BeepBox](https://beepbox.co).
 
