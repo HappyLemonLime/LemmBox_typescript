@@ -902,9 +902,9 @@ export class Config {
 	]);
 	public static readonly blackKeyNameParents: ReadonlyArray<number> = [-1, 1, -1, 1, -1, 1, -1, -1, 1, -1, 1, -1];
 	public static readonly tempoMin: number = 1;
-	public static readonly tempoMax: number = 500;
-	public static readonly octaveMin: number = -2;
-	public static readonly octaveMax: number = 2;
+	public static readonly tempoMax: number = 1000;
+	public static readonly octaveMin: number = -8;
+	public static readonly octaveMax: number = 8;
     public static readonly echoDelayRange: number = 24;
     public static readonly echoDelayStepTicks: number = 4;
     public static readonly echoSustainRange: number = 8;
@@ -1134,6 +1134,7 @@ export class Config {
         { name: "hum", voices: 2, spread: 0.045, offset: 0.0, expression: 1.0, sign: 1.0 },
         { name: "honky tonk", voices: 2, spread: 0.09, offset: 0.0, expression: 1.0, sign: 1.0 },
         { name: "dissonant", voices: 2, spread: 0.25, offset: 0.0, expression: 0.9, sign: 1.0 },
+        { name: "energetic", voices: 2, spread: 6.15, offset: 6.435, expression: 0.85, sign: 0.9 },
         { name: "fifth", voices: 2, spread: 3.5, offset: 3.5, expression: 0.9, sign: 1.0 },
         { name: "octave", voices: 2, spread: 6.0, offset: 6.0, expression: 0.8, sign: 1.0 },
         { name: "bowed", voices: 2, spread: 0.02, offset: 0.0, expression: 1.0, sign: -1.0 },
